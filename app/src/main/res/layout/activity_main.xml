@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juanpablo.intentimplicitos.MainActivity">
+
+    <Button
+        android:id="@+id/btnMsj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:text="@string/btn_sms" />
+
+    <Button
+        android:id="@+id/btnLlamado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/btn_llamado"
+        android:layout_below="@+id/btnMsj"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="@string/btn_email"
+        android:layout_below="@+id/btnLlamado"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/btn_cerrar"
+        android:layout_below="@+id/btnEmail"
+        android:layout_alignLeft="@+id/btnEmail"
+        android:layout_alignStart="@+id/btnEmail" />
+</RelativeLayout>

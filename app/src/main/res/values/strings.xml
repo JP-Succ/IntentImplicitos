@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IntentImplicitos</string>
+    <string name="btn_llamado">LLamar</string>
+    <string name="btn_email">Enviar Email</string>
+    <string name="btn_sms">Enviar Mensaje</string>
+    <string name="btn_cerrar">Salir</string>
+</resources>
